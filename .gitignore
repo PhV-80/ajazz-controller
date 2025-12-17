@@ -1,6 +1,20 @@
-﻿################################################################################
-# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
-################################################################################
+# venv
+.venv/
+venv/
 
-/.venv
-/.vs
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS / IDE
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Sonstiges
+*.log
+dist/
+build/
