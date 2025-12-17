@@ -1,5 +1,3 @@
-from itertools import product
-from pydoc import pathdirs
 from ajazz_controller.core.hid_device import HidDevice
 
 def main() -> None:
