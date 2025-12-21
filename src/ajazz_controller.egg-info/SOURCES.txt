@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/ajazz_controller/__init__.py
+src/ajazz_controller/__main__.py
+src/ajazz_controller.egg-info/PKG-INFO
+src/ajazz_controller.egg-info/SOURCES.txt
+src/ajazz_controller.egg-info/dependency_links.txt
+src/ajazz_controller.egg-info/requires.txt
+src/ajazz_controller.egg-info/top_level.txt
+src/ajazz_controller/core/__init__.py
+src/ajazz_controller/core/hid_device.py

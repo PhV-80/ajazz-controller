@@ -7,11 +7,15 @@
     <ProjectHome />
     <StartupFile>examples\list_devices.py</StartupFile>
     <SearchPath>src\ajazz_controller</SearchPath>
-    <WorkingDirectory>.</WorkingDirectory>
+    <WorkingDirectory>
+    </WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>MSBuild|.venv|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>Global|VisualStudio|ajazz-controller</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <Environment>PYTHONPATH=C:\Users\phase\source\repos\PhV-80\ajazz-controller\src</Environment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -38,19 +42,9 @@
     <Content Include=".git\hooks\sendemail-validate.sample" />
     <Content Include=".git\hooks\update.sample" />
     <Content Include=".git\info\exclude" />
+    <Content Include="docs\architecture.md" />
     <Content Include="pyproject.toml" />
     <Content Include="requirements.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Interpreter Include=".venv\">
-      <Id>.venv</Id>
-      <Description>.venv (Python 3.7 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <Version>3.7</Version>
-      <Architecture>X64</Architecture>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-    </Interpreter>
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".git\" />
@@ -78,6 +72,9 @@
     <Compile Include="src\ajazz_controller\core\__init__.py" />
     <Compile Include="src\ajazz_controller\__main__.py" />
     <Compile Include="src\ajazz_controller\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|ajazz-controller" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
