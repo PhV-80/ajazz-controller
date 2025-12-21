@@ -1,0 +1,6 @@
+hid>=0.0.4
+
+[dev]
+pytest>=7.0
+black>=22.0
+flake8>=4.0

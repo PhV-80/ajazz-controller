@@ -1,3 +1,10 @@
+import sys
+from pathlib import Path
+
+src_path = Path(__file__).parent.parent / "src"
+sys.path.insert(0, str(src_path))
+
+
 from ajazz_controller.core.hid_device import HidDevice
 
 def main() -> None:
