@@ -18,5 +18,13 @@ Ziel ist es, das Gerät ohne die Original‑Software vollwertig zu nutzen und da
 
 ## Projektstatus
 
-- Projektstruktur, Git und GitHub‑Repository sind eingerichtet  
-- Nächster Schritt: HID‑Kommunikation mit dem AJAZZ‑Gerät (Erkennung, erste Kommandos)
+- Projektstruktur, Git und GitHub-Repository sind eingerichtet
+- HID-Device-Layer implementiert und getestet
+- Device Discovery funktioniert (AJAZZ AKP153E erkannt: VID 0x260d, PID 0x1125)
+- Architektur dokumentiert
+- **Protokoll-Implementierung in Entwicklung:**
+  - Brightness/Clear/SetImage-Befehle implementiert
+  - **Windows HID-Zugriffsproblem identifiziert** (siehe `docs/protocol-notes.md`)
+  - Tests unter Linux/macOS oder mit libusb geplant
+
+**Nächster Meilenstein:** Alternative Zugriffsmethode testen oder auf Linux/macOS portieren
