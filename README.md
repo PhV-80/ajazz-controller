@@ -28,3 +28,10 @@ Ziel ist es, das Gerät ohne die Original‑Software vollwertig zu nutzen und da
   - Tests unter Linux/macOS oder mit libusb geplant
 
 **Nächster Meilenstein:** Alternative Zugriffsmethode testen oder auf Linux/macOS portieren
+
+
+## Updates
+#### Status: On Hold (Q1 2026).
+#### Grund: USB-HID-Reverse-Engineering erfordert längere Lernphase, kollidiert aktuell mit Umschulung (FIAE Abschluss Priorität 1).
+#### Kurzfristige Alternative: Bitfocus Companion für produktive Nutzung.
+#### Weiterführung geplant nach Umschulungsabschluss.
